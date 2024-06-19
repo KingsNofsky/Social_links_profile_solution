@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.layout-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.container {
+    display: flex;
+    margin-inline: 1.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagemFoto {
+    border-radius: 50%;
+    width: 6rem;
+}
+
+h2 {
+    font-weight: 700;
+    display: flex;
+    padding: 30px 0 10px 0px;
+    color: hsl(0, 0%, 100%)
+}
+
+.paisCidade {
+    color: hsl(75, 94%, 57%);
+
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.linkRedes {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+
+}
+
+.linkRedes>li a {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.7rem;
+    border-radius: 8px;
+    font-weight: 600;
+
+}
+
+.linkRedes li a:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-size-adjust: 400px;
+}
+
+@media (max-width:400px) {
+    .layout-wrapper {
+        padding: 10%;
+    }
+
+}
